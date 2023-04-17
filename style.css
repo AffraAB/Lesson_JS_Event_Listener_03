@@ -1,0 +1,108 @@
+/* Kommentar för CSS */
+/* Ta bort extra utrymme i body */
+body {
+    margin: 0;
+}
+
+/* Footer i botten, alltid */
+main {
+    flex: 1;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+}
+/* Footer i botten slut */
+
+/* Få tag på id, klass, flera klasser */
+.my-class {
+    color: green;
+}
+
+#my-id {
+    color: rgb(255, 0, 0);
+}
+
+.two.classes {
+    color: #0000FF;
+}
+
+header {
+    background-color: rgb(98, 163, 201);
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Verdana;
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-left: -12px;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 0 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    /* Change cursor */
+    cursor: pointer;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+header nav a.active {
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    color:rgb(0, 0, 0);
+    font-family: Verdana;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+main {
+    padding: 20px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+main h1 {
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: rgb(98, 163, 201);
+    padding: 20px;
+    color: #000;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}
+
+.my-form {
+    width: 100%;
+}
